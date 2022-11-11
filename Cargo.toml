@@ -1,0 +1,11 @@
+[package]
+name = "defmt-print-serial"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.66"
+clap = { version = "4.0.22", features = ["derive"] }
+defmt-decoder = { version = "0.3.3", features = ["unstable"] }
+log = "0.4.17"
+serialport = "4.2.0"
